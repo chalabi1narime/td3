@@ -13,9 +13,9 @@ public class segment {
 }
   public double distance()
     {
-        double d;
-        d = Math.sqrt((B.getAbscisse()-A.getAbscisse())*(B.getAbscisse()-A.getAbscisse()) +(B.getOrdonée()-A.getOrdonée())*(B.getOrdonée()-A.getOrdonée()));
-        return d;
+        
+       return Math.sqrt((B.getAbscisse()-A.getAbscisse())*(B.getAbscisse()-A.getAbscisse()) +(B.getOrdonée()-A.getOrdonée())*(B.getOrdonée()-A.getOrdonée()));
+        
     }
   public  segment Symetrie(){
     	return new segment(A.Symetrie(),B.Symetrie());
